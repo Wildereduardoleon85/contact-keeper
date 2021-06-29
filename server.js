@@ -1,8 +1,14 @@
 const express = require('express');
-
+const connectDB = require('./config/db');
 
 //Initializations
 const app = express();
+
+//Connect Database
+connectDB();
+
+//Middlewares
+app.use(express.json({extended: false}));
 
 //Routes
 app.use('/api/users', require('./routes/users'));

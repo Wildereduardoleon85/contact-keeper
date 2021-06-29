@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://Wilder:OvG6BMzNCqKrXF12@cluster0.mefkr.mongodb.net/contactkeeperDB?retryWrites=true&w=majority"
+}
